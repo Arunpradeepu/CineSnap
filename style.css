@@ -1,0 +1,78 @@
+.reviews{
+    margin-bottom: 100px;
+}
+
+span{
+    background-color: red;
+    font-weight: 100;
+    padding: 10px;
+    
+    margin-left: 1%;
+    margin-right: 3%;
+    border-radius: 3px;
+}
+#moviePlot{
+    margin-bottom: 3%;
+}
+
+#play{
+    border-radius: 50%;
+    width: 15%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.child1{
+    position: relative;
+    display: inline;
+}
+#play:hover{
+    cursor: pointer;
+}
+
+span:hover{
+    cursor: pointer;
+}
+
+@media (max-width:600px){
+    .aboutMovies {
+        flex-direction: column;
+    
+        margin-bottom: 9%;
+    }
+    .child1{
+        text-align: center;
+    }
+    .child1 img{
+        width: 50%;
+        border-radius: 10px;
+    }
+    #play{
+        width: 8%;
+
+    }
+    #movieTitle {
+        font-size: 20px;
+    }
+    .aboutMovies p{
+        font-size: 13px;
+        padding-bottom: 2%;
+        margin-left: 2%;
+    }
+    span{
+        font-size: 10px;
+        margin-left: 2%;
+    }
+    h4{
+        font-size: 15px;
+        margin-left: 4%;
+    }
+    .movie_card p{
+        font-size: 10px;
+    }
+    .movie_card h2{
+        font-size: 20px;
+    }
+
+}
